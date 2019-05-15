@@ -15,8 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet var learnerGenderLabel: UILabel!
     var learnerInstance: LearnerModel? // Copy of LearnerModel
     @IBAction func increaseAgeBtn(_ sender: UIButton) {
-        if let instance = learnerInstance {
+        if let instance = facilitatorInstance {
             instance.increaseAge()
+            instance.coachMentee()
             updateUI()
         }
     }
@@ -32,8 +33,12 @@ class ViewController: UIViewController {
             updateUIModel2()
         }
     }
+    //MODEL 3 (INHERITANCE)
+    var facilitatorInstance: FacilitatorModel?
     
-    
+    //
+    //
+    //
     
     override func viewDidLoad() {
         //MODEL 1
@@ -45,7 +50,11 @@ class ViewController: UIViewController {
         laptopInstance = LaptopModel(brandLaptop: "Macbook", versionLaptop: "Pro 2017", displaySizeLaptop: 13, operatingSystemLaptop: "OSX Mojave")
         updateUIModel2()
         
+        facilitatorInstance = FacilitatorModel(facilName: "David", facilAge: 24, facilGender: "Male", facilImageProfile: "", facilPerk: "Unlimited")
+        
     }
+    
+
     
     func updateUIModel2() {
         if let instance = laptopInstance {
@@ -57,7 +66,7 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        if let instance = learnerInstance{
+        if let instance = facilitatorInstance{
             learnerNameLabel.text = instance.name
             learnerAgeLabel.text = "\(instance.age)"
             learnerGenderLabel.text = instance.gender

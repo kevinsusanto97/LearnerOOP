@@ -14,6 +14,7 @@
 		514EE053228BD85900628384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514EE051228BD85900628384 /* LaunchScreen.storyboard */; };
 		514EE05B228BE59400628384 /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514EE05A228BE59400628384 /* LearnerModel.swift */; };
 		514EE05F228BF55B00628384 /* LaptopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514EE05E228BF55B00628384 /* LaptopModel.swift */; };
+		514EE061228C030E00628384 /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514EE060228C030E00628384 /* FacilitatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		514EE054228BD85900628384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		514EE05A228BE59400628384 /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		514EE05E228BF55B00628384 /* LaptopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaptopModel.swift; sourceTree = "<group>"; };
+		514EE060228C030E00628384 /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				514EE051228BD85900628384 /* LaunchScreen.storyboard */,
 				514EE05E228BF55B00628384 /* LaptopModel.swift */,
 				514EE054228BD85900628384 /* Info.plist */,
+				514EE060228C030E00628384 /* FacilitatorModel.swift */,
 			);
 			path = LearnerOOP;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				514EE04B228BD85700628384 /* ViewController.swift in Sources */,
 				514EE05F228BF55B00628384 /* LaptopModel.swift in Sources */,
 				514EE05B228BE59400628384 /* LearnerModel.swift in Sources */,
+				514EE061228C030E00628384 /* FacilitatorModel.swift in Sources */,
 				514EE049228BD85700628384 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
